@@ -39,3 +39,5 @@ denoised_data/
 *.ckpt
 vectorstores/
 vids/
+ShanghaiTech/
+UBnormal/

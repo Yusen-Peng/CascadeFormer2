@@ -17,7 +17,9 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 20-30 python baseline/action_recognition/casca
 CUDA_VISIBLE_DEVICES=0 taskset -c 20-30 python baseline/action_recognition/cascadeformer_1_0/joint/ntu_60_own/agent_eval.py
 ```
 
-## NTU-AD
+## Evaluation
+
+### NTU-AD (train split versus test split)
 
 I propose that we can take NTU dataset (originally used for action recognition) and classify them into normal/abnormal actions, namely:
 
@@ -56,3 +58,12 @@ A50. punching/slapping other person; A51. kicking other person;
 A52. pushing other person; A54. point finger at the other person; 
 A57. touch other person's pocket.
 ```
+
+### Cross-dataset Transfer (from Penn Action to UBnormal and ShanghaiTech)
+
+- [ ] UBnormal
+  - [ ] skeleton data collection
+  - [ ] keypoint mapping (17 -> 13)
+  - [ ] TBD
+- [ ] ShanghaiTech
+  - [ ]
