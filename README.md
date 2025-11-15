@@ -62,7 +62,7 @@ A57. touch other person's pocket.
 ### Cross-dataset Transfer (from Penn Action to UBnormal and ShanghaiTech)
 
 - [ ] UBnormal
-  - [ ] skeleton data collection
+  - [x] skeleton data collection
   - [ ] keypoint mapping (17 -> 13)
   - [ ] TBD
 - [ ] ShanghaiTech
