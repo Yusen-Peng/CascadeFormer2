@@ -95,7 +95,6 @@ policy_chain = POLICY_PROMPT | llm | StrOutputParser()
 
 WEIGHTS = {"tp": +5, "fp": -3, "fn": -10, "tn": 0}
 
-#SEARCH_BARS = [0.55, 0.65, 0.74, 0.76, 0.78, 0.82, 0.84, 0.86, 0.87, 0.88, 0.885, 0.89, 0.895]
 
 SEARCH_BARS = [0.76, 0.78, 0.82, 0.84, 0.86, 0.87, 0.88, 0.885, 0.89, 0.895]
 

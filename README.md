@@ -1,4 +1,4 @@
-# 🎁 CascadeFormer 2: Towards a Cost-Aligned Anomaly Detection Agent via Reinforcement Learning with Verifiable Rewards
+# CascadeFormer 2: Towards a Cost-Aligned RLVR Agent for Human Action Anomaly Detection
 
 ## Agent Design
 
@@ -58,12 +58,3 @@ A50. punching/slapping other person; A51. kicking other person;
 A52. pushing other person; A54. point finger at the other person; 
 A57. touch other person's pocket.
 ```
-
-### Cross-dataset Transfer (from Penn Action to UBnormal and ShanghaiTech)
-
-- [ ] UBnormal
-  - [x] skeleton data collection
-  - [ ] keypoint mapping (17 -> 13)
-  - [ ] TBD
-- [ ] ShanghaiTech
-  - [ ]
