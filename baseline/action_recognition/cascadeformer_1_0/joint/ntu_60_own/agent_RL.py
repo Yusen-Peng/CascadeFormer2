@@ -190,7 +190,7 @@ def visualization():
     print(f"[viz] Saved KNN vs. Mahalanobis scatter to {fig_path}", flush=True)
 
 if __name__ == "__main__":
-    search_mode = "RLVR" # options: "RLVR", "fixed", "random"
+    search_mode = "random" # options: "RLVR", "fixed", "random"
     agent_rl_policy_optimization(search_mode=search_mode)
     #visualization()
 

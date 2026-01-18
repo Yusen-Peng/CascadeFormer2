@@ -4,10 +4,11 @@
 
 ![alt text](/CascadeFormer-AD-Agent.png)
 
-## Commands
+## Experiment Commands
 
 ```bash
-# export the API key first
+conda activate BPMT_env
+# export the API key first (DO THIS FIRST!!)
 export OPENAI_API_KEY=<API KEY GOES HERE>
 # log incidents with statistics (optional) + inference demo
 CUDA_VISIBLE_DEVICES=0 taskset -c 20-30 python baseline/action_recognition/cascadeformer_1_0/joint/ntu_60_own/agent_demo.py
@@ -17,7 +18,7 @@ CUDA_VISIBLE_DEVICES=0 taskset -c 20-30 python baseline/action_recognition/casca
 CUDA_VISIBLE_DEVICES=0 taskset -c 20-30 python baseline/action_recognition/cascadeformer_1_0/joint/ntu_60_own/agent_eval.py
 ```
 
-## Evaluation
+<!-- ## Evaluation
 
 ### NTU-AD (train split versus test split)
 
@@ -57,4 +58,4 @@ A47. touch neck (neckache); A48. nausea or vomiting condition;
 A50. punching/slapping other person; A51. kicking other person;
 A52. pushing other person; A54. point finger at the other person; 
 A57. touch other person's pocket.
-```
+``` -->

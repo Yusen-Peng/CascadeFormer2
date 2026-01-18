@@ -21,7 +21,8 @@ def decide_without_log(policies_store, incidents_store, event: Dict[str, Any], s
     Same as decide(), but does NOT modify the incidents_store or append new entries.
     Useful for offline evaluation (no side effects).
     """
-    ctx, _ = retrieve_context(policies_store, incidents_store, event, scores)
+    policy_only = True
+    ctx, _ = retrieve_context(policy_only, policies_store, incidents_store, event, scores)
     out = policy_chain.invoke({"event": event, "scores": scores, "context": ctx})
 
     try:

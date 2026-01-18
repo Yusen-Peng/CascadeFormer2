@@ -12,7 +12,7 @@ from agent_components.eval import evaluate_full_test_split_with_agent, evaluate_
 from agent_components.reinforcement import PolicyParams
 
 def main():
-    MODE = "policy_only" # 'full' or 'random' or 'policy_only'
+    MODE = "random" # 'full' or 'random' or 'policy_only'
     POLICY = "RL" # 'RL' 'classification'
 
 
@@ -38,13 +38,6 @@ def main():
     
     print_incident_db(incidents_store)
     print_policy_db(policies_store)
-
-
-
-    # return # FIXME: remove after testing
-
-
-
 
     if MODE == "full":
         evaluate_full_test_split_with_agent(
