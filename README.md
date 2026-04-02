@@ -2,7 +2,7 @@
 
 ## Thesis Link
 
-![From Representation to Policy: Cascade Finetuning and Verifiable Reward Alignment for Human Action Understanding](https://kb.osu.edu/handle/1811/107076)
+[From Representation to Policy: Cascade Finetuning and Verifiable Reward Alignment for Human Action Understanding](https://kb.osu.edu/handle/1811/107076)
 
 ## Agent Design
 
